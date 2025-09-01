@@ -4,7 +4,7 @@ sys.path.append(".")
 import uvicorn
 from fastapi import FastAPI
 from app.controllers.routes import router
-from repositories.DataBase import DBase, Engine
+from app.repositories.DataBase import DBase, Engine
 
 App = FastAPI()
 App.include_router(router)

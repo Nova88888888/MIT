@@ -1,0 +1,2 @@
+_Cookies y LogIn
+_Base de Datos, correcto almacenamiento en server production y seguridad en su apertura
